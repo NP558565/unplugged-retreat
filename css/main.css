@@ -42,7 +42,7 @@ h4 {
  
 p {
   font-size: .875em;
-  line-height: 1.285;
+  line-height: 1;
 }
 
 img {
@@ -359,6 +359,15 @@ input[type=button] {
 
 @media only screen and (min-width:768px) {
   /*Tablet styles here*/
+header nav{
+  width: 30%
+}
+
+@media only screen and (min-width: 240px){
+  header nav{
+    width: 29% 
+}
+
 
   /* General styles */
   .content-wrapper {
@@ -392,7 +401,7 @@ h3 {
   }
 
   header nav {
-    width: 20%;
+    width: 29%;
   }
 
   header nav ul {
